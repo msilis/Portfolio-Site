@@ -1,0 +1,181 @@
+:root {
+    --fs-xl: 12rem;
+    --fs-600: 5rem;
+    --fs-400: 1.5rem;
+    --fs-300: 1rem;
+
+}
+
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("media/kiwihug-background.jpg");
+}
+
+
+
+#name-tag {
+    font-family: 'Homemade Apple';
+    font-size: var(--fs-600);
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    letter-spacing: .25rem;
+   
+}
+nav {
+    
+    margin: auto;
+    width: 100%;
+    
+}
+
+#navigation-list {
+    display: flex;
+    gap: 1.5rem;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+    padding: 0;
+    
+
+}
+
+#navigation-list li {
+    font-family: 'Homemade Apple';
+    font-size: var(--fs-400);
+    
+    
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+/*#give-some-space {
+    height: 30vh;
+}*/
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-size: .75rem;
+}
+
+h2  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--fs-400);
+    text-align: center;
+}
+
+/* Project Section Display*/
+
+
+#project-section {
+    display: none;
+    
+}
+
+/*About section Display*/
+
+#about-section {
+    display: none;
+}
+
+#contact-section {
+    display: none;
+}
+
+#top-button1, #top-button2, #top-button3{
+    font-family: Quintessential;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
+
+#slide-box {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    padding-top: 0;
+    margin: auto;
+    width: 80%;
+    /*border: 1px solid red;*/
+}
+
+#slide {
+    max-height: 30em;
+}
+
+@media only screen and (max-width: 40em){
+    #slide{
+        max-height: 10em;
+    }
+}
+
+#slide-text {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--fs-300);
+    padding: 5px;
+    font-weight: 200;
+    margin-top: 0;
+}
+
+
+#about-me {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--fs-400);
+}
+
+/*#about-section {
+    display: flex;
+}*/
+
+
+
+#stack-icons-list {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    
+
+}
+
+#stack-icons-list li {
+    list-style: none;
+    
+}
+
+
+
+#contact-list {
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--fs-400);
+}
+
+#contact-list li {
+    margin: 0;
+    list-style: none;
+}
