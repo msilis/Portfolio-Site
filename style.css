@@ -27,6 +27,13 @@ body {
     letter-spacing: .25rem;
    
 }
+
+@media (max-width: 40rem){
+    #name-tag{
+        line-height: 6rem;
+    }
+}
+
 nav {
     
     margin: auto;
@@ -62,9 +69,6 @@ a {
     cursor: pointer;
 }
 
-/*#give-some-space {
-    height: 30vh;
-}*/
 
 footer {
     text-align: center;
@@ -143,10 +147,15 @@ h2  {
     font-size: var(--fs-400);
 }
 
-/*#about-section {
+#miks-picture {
     display: flex;
-}*/
+    justify-content: center;
+}
 
+#profile-pic {
+    height: 15rem;
+    border-radius: 50%;
+}
 
 
 #stack-icons-list {
@@ -173,9 +182,38 @@ h2  {
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: var(--fs-400);
+    align-items: center;
+    /* border: 1px solid red; */
+    
 }
 
 #contact-list li {
     margin: 0;
     list-style: none;
+    position: relative;
+    left: -2rem;
+    /* border: 1px solid red; */
+    
+    
+}
+
+.contact-icon{
+    height: 2rem;
+    margin: .5rem;
+    position: relative;
+    top: .8rem;
+    
+}
+
+@media only screen and (max-width: 40em){
+    #contact-list{
+        flex-direction: column;
+        
+    }
+
+    #contact-list li{
+        position: relative;
+        left: -1.5rem;
+    }
+    
 }

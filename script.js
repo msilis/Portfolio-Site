@@ -72,6 +72,7 @@ document.getElementById('contact-button').addEventListener('click', ()=>{
     contact.style.display = 'block';
     about.style.display = 'none';
     project.style.display = 'none';
+    footer.style.display = 'none';
     contact.scrollIntoView();
 });
 
