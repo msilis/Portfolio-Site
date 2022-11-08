@@ -89,7 +89,40 @@ h2  {
 
 #project-section {
     display: none;
+    /* border: 1px solid orange; */
+    justify-content: center;
     
+}
+
+.projectCardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 1px solid blue; */
+    padding: .25rem;
+    
+}
+
+.projectCard {
+    /* border: 1px solid red; */
+    padding: 1rem;
+    max-width: 20rem;
+    text-align: center;
+    background-color: rgba(189, 189, 199, 0.32);
+    border-radius: 10px;
+    margin: .5rem;
+    transition: transform .3s;
+    
+}
+
+.projectCard:hover {
+    transform: scale(1.2);
+}
+
+.cardPic {
+    
+    height: 8rem;
+    width: 16rem;
 }
 
 /*About section Display*/

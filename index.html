@@ -1,84 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Miks SILIS</title>
     <!--  Google font link-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Quintessential&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Quintessential&display=swap"
+      rel="stylesheet"
+    />
     <!--CSS style link-->
-    <link href="style.css" rel="stylesheet" type="text/css">
-</head>
-<body>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
     <div id="top"></div>
     <header>
-        <h1 id="name-tag">Miks  Silis</h1>
+      <h1 id="name-tag">Miks Silis</h1>
     </header>
     <nav>
-        <ul id="navigation-list">
-            <li id="project-button"><a>Projects</a></li>
-            <li id="about-button"><a>About</a></li>
-            <li id="contact-button"><a>Contact</a></li>
-        </ul>
+      <ul id="navigation-list">
+        <li id="project-button"><a>Projects</a></li>
+        <li id="about-button"><a>About</a></li>
+        <li id="contact-button"><a>Contact</a></li>
+      </ul>
     </nav>
 
     <footer>
-        <div id="copyright">
-            <p>Made by hand - 2022</p>
-        </div>
+      <div id="copyright">
+        <p>Made by hand - 2022</p>
+      </div>
     </footer>
     <main>
-        <section id="project-section">
-            <h2 id="project-tag">Projects</h2>
+      <!--Project Section-->
+      <section id="project-section">
+        <div class="projectContainer">
+            <div class="projectCardContainer">
+                <div class="projectCard">
+                    <h4 class="cardHeading">Finhley Pepper Shakers</h4>
+                    <a href="https://msilis.github.io/peppershakers/" target="blank"><img title="Pepper Shakers" alt="Screenshot of website for sewing club" class="cardPic" src="./media/pepperShakersScreenshot.png"/></a>
+                    <p class="cardQuote">A responsive club website built taking into consideration different screen sizes as well as accessability.</p>
+                </div>
+                <div class="projectCard">
+                    <h4 class="cardHeading">Tea Cozy</h4>
+                    <a href="https://msilis.github.io/teacozy" target="blank"><img title="Tea Cozy" alt="Screenshot of website for tea shop" class="cardPic" src="./media/teaCozyScreenshot.png"/></a>
+                    <p class="cardQuote">A responsive tea shop landing page. Built from provided design brief.</p>
+                </div>
+                <div class="projectCard">
+                    <h4 class="cardHeading">React Playlist App</h4>
+                    <a href="https://github.com/msilis/spotify-app" target="blank"><img class="cardPic" alt="Screenshot of Spotify playlist making app" title="Spotify Playlist App" src="./media/JammmingScreenshot.png"/></a>
+                    <blockquote>A React app that makes calls to the Spotify API to create playlists in a user's account.</blockquote>
+                </div>
+                <div class="projectCard">
+                    <h4 class="cardHeading">To-do List</h4>
+                    <a href="https://msilis.github.io/literate-happiness" target="blank"><img class="cardPic" title="To-do List App" alt="Screenshot of simple to-do list application" src="./media/ToDoList.png"/></a>
+                    <p>To-do list written in React utilising hooks.</p>
+                </div>
+                <div class="projectCard">
+                    <h4 class="cardHeading">Credit Card Checker</h4>
+                    <a href="https://msilis.github.io/CreditCardCheck/" target="blank"><img class="cardPic" title="Credit Card Checker App" alt="Screenshot of credit card checker application" src="./media/cardCheckerPic.png"</a>
+                    <p>Originally a quick Codecademy project. I added a front end to use the logic I wrote.</p>
+                </div>
+                
 
-            <article id="slide-box">
-                <a target="_blank" id="image-link"><img name="slide" id="slide"></a>
-            </article>
-            <h4 id="slide-text"></h4>
-            
-        
-        </section>
-        <section id="about-section">
-            <h2 id="about-tag">About</h2>
-            <figure id="miks-picture">
-                <img src="media/miks-cropped-bw.png" id="profile-pic">
-            </figure>
-            <article id="about-me">I was born in Latvia and grew up in the United States. Currently, I'm working in London. <br>
-            I studied classical music (viola) in school and taught children to play the violin.<br>
-        My current tech knowledge includes the following:</article>
+            </div>
+
+        </div>
+
+
+
+
+
+
+      </section>
+
+      <!--About Me-->
+      <section id="about-section">
+        <h2 id="about-tag">About</h2>
+        <figure id="miks-picture">
+          <img src="media/miks-cropped-bw.png" id="profile-pic" />
+        </figure>
+        <article id="about-me">
+          I was born in Latvia and grew up in the United States. Currently, I'm
+          working in London. <br />
+          I studied classical music (viola) in school and taught children to
+          play the violin.<br />
+          My current tech knowledge includes the following:
+        </article>
         <div id="stack-icons">
-            <ul id="stack-icons-list">
-            <li><img title="HTML logo" src="media/html5-48.png" alt="HTML logo"></li>
-            <li><img title="CSS3 logo" src="media/css3-50.png"></li>
-            <li><img title="JavaScript logo" src="media/javascript-logo-50.png"></li>
-            <li><img title="NodeJS logo" src="media/nodejs-50.png"></li>
-            <li><img title="React logo" src="media/react-50.png"></li>
-            <li><img title="Git logo" src="media/git-50.png"></li>
-            <li><img title="GitHub logo" src="media/github-50.png"></li>
-                <!-- icons from icons8.com -->
-        </ul>
+          <ul id="stack-icons-list">
+            <li>
+              <img title="HTML logo" src="media/html5-48.png" alt="HTML logo" />
+            </li>
+            <li><img title="CSS3 logo" src="media/css3-50.png" /></li>
+            <li>
+              <img title="JavaScript logo" src="media/javascript-logo-50.png" />
+            </li>
+            <li><img title="NodeJS logo" src="media/nodejs-50.png" /></li>
+            <li><img title="React logo" src="media/react-50.png" /></li>
+            <li><img title="Git logo" src="media/git-50.png" /></li>
+            <li><img title="GitHub logo" src="media/github-50.png" /></li>
+            <!-- icons from icons8.com -->
+          </ul>
         </div>
+      </section>
 
-            
-
-        </section>
-        <section id="contact-section">
-            <h2 id="contact-tag">Contact</h2>
-            <div id="contact-list-container">
-                <ul id="contact-list">
-            <li title="Hit me up on email" name="mikssilis@gmail.com"><a href="mailto:mikssilis@gmail.com? subject=Website Sumbission"><img src="media/gmail-logo-40.png" class="contact-icon">Email me</a></li>
-            <li title="Here's my GitHub" name="github link"><a href="https://github.com/msilis" target="_blank"><img src="media/icons8-github-40.png" class="contact-icon">GitHub</a></li>
-            <li title="Find me on LinkedIn" name="LinkedIn link"><a href="https://www.linkedin.com/in/miks-silis"><img src ="media/linkedin-circled-40.png" class="contact-icon">LinkedIn</a></li>
-            </ul>
+      <!--Contact Me-->
+      <section id="contact-section">
+        <h2 id="contact-tag">Contact</h2>
+        <div id="contact-list-container">
+          <ul id="contact-list">
+            <li title="Hit me up on email" name="mikssilis@gmail.com">
+              <a href="mailto:mikssilis@gmail.com? subject=Website Sumbission"
+                ><img src="media/gmail-logo-40.png" class="contact-icon" />Email
+                me</a
+              >
+            </li>
+            <li title="Here's my GitHub" name="github link">
+              <a href="https://github.com/msilis" target="_blank"
+                ><img
+                  src="media/icons8-github-40.png"
+                  class="contact-icon"
+                />GitHub</a
+              >
+            </li>
+            <li title="Find me on LinkedIn" name="LinkedIn link">
+              <a href="https://www.linkedin.com/in/miks-silis"
+                ><img
+                  src="media/linkedin-circled-40.png"
+                  class="contact-icon"
+                />LinkedIn</a
+              >
+            </li>
+          </ul>
         </div>
-           
-
-        </section>
+      </section>
     </main>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
