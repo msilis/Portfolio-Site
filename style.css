@@ -75,9 +75,14 @@ h2 {
 
 #project-section {
   display: none;
+  /* opacity: 0; */
   /* border: 1px solid orange; */
   justify-content: center;
+  transition: opacity 500ms linear;
+  
 }
+
+
 
 .projectCardContainer {
   display: flex;
